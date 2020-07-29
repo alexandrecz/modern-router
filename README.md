@@ -1,3 +1,7 @@
+A simple React Router exercise.
+
+![alt text](https://github.com/alexandrecz/modern-react/blob/master/img/app.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
