@@ -46,7 +46,7 @@ function Todos() {
   return (
     
     <List> 
-        {items.map((item, index) => (
+        {items.map(item => (
            <ListItem key={item.id}>
                <Link to={`/todos/${item.id}`}>{item.title}</Link>
            </ListItem>
