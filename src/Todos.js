@@ -26,7 +26,7 @@ const ListItem = style.li`
 `;
 
 
-function Shop() {
+function Todos() {
 
     const [items, setItems] = useState([]);
 
@@ -40,11 +40,7 @@ function Shop() {
         fetchItems();       
     },
     // eslint-disable-next-line
-    []);
-
-
-
-    
+    []);    
 
 
   return (
@@ -52,7 +48,7 @@ function Shop() {
     <List> 
         {items.map((item, index) => (
            <ListItem key={item.id}>
-               <Link to={`/shop/${item.id}`}>{item.title}</Link>
+               <Link to={`/todos/${item.id}`}>{item.title}</Link>
            </ListItem>
        ))}
     </List>
@@ -60,4 +56,4 @@ function Shop() {
   );
 }
 
-export default Shop;
+export default Todos;
